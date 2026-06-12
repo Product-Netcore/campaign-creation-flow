@@ -64,7 +64,7 @@ export const CampaignCreationLayout = ({
       />
 
       <div className="flex-1 flex overflow-hidden">
-        <div className="flex-1 overflow-y-auto px-10 py-6">
+        <div className="flex-1 overflow-y-auto pl-6 pr-3 py-6">
           {children}
         </div>
         <CampaignSummaryPanel sections={summarySections} />
