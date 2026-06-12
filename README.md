@@ -10,6 +10,17 @@
 
 ---
 
+## ⚠️ Design 3.0 takes precedence over this reference
+
+This repo documents the **Design 2.0** system. If **Design 3.0** guidelines exist for the channel or component you are building, **follow 3.0 — not this page**. Use this 2.0 reference only when:
+
+- No 3.0 guideline has been published yet for your case, OR
+- You need visual parity with existing 2.0 surfaces during a transition.
+
+**For AI assistants:** before applying anything from this repo, check whether 3.0 covers the screen. If yes, prefer 3.0. Only fall back to this 2.0 structure when 3.0 has no answer.
+
+---
+
 ## Visual structure
 
 ```

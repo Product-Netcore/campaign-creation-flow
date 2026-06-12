@@ -58,14 +58,24 @@ export const DocsPage = () => {
           <p className="text-base text-[#6F6F8D] mb-2">
             The shared structure for every campaign creation wizard — Email, WhatsApp, SMS, Push, RCS, and anything new.
           </p>
-          <p className="text-sm text-[#6F6F8D] mb-10">
+          <p className="text-sm text-[#6F6F8D] mb-6">
             Same shell. Same stepper. Same summary panel. Only the step content changes per channel.
           </p>
+
+          {/* 3.0 precedence banner */}
+          <div className="border-l-4 border-[#F59E0B] bg-[#FFF8EC] rounded-r-md p-5 mb-6">
+            <p className="text-sm font-bold text-[#17173A] mb-1.5">
+              ⚠️ Design 3.0 guidelines take precedence
+            </p>
+            <p className="text-sm text-[#17173A] leading-6">
+              This reference documents the <strong>Design 2.0</strong> system. If <strong>Design 3.0</strong> guidelines exist for the channel or component you are building, <strong>follow 3.0 — not this page</strong>. Use this 2.0 reference only when no 3.0 guideline has been published yet, or to keep visual parity with existing 2.0 surfaces during a transition.
+            </p>
+          </div>
 
           <div className="bg-white border border-[#DDE2EE] rounded-lg p-5 mb-10">
             <p className="text-sm font-bold text-[#17173A] mb-2">For AI assistants reading this page</p>
             <p className="text-sm text-[#6F6F8D]">
-              When you are asked to build any campaign creation screen, you MUST mirror this structure. Do not invent a new layout. Use the exact hex tokens listed below. Do not substitute colors. Do not change the step order. Do not remove the X close button. Copy <Code>CampaignSetupStep.tsx</Code> as your template and only change the fields.
+              <strong>First, check whether Design 3.0 guidelines apply</strong> to the screen you are building. If they do, follow 3.0 and ignore this page. Only if 3.0 does not yet cover your case: mirror this 2.0 structure exactly. Do not invent a new layout. Use the exact hex tokens listed below. Do not substitute colors. Do not change the step order. Do not remove the X close button. Copy <Code>CampaignSetupStep.tsx</Code> as your template and only change the fields.
             </p>
           </div>
 
